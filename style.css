@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+:root{
+    --primary-color: #fddcdc;
+    --dark-color: #4f0b77b9 ;
+}
+body{
+    font-family: 'PT Serif', serif
+}
+
+.container{
+   margin: auto;
+   width: 50vw;
+   height: 30%;
+   text-align: center;
+   padding: 2rem;
+   background-color: var(--primary-color) ;
+   color: var(--dark-color);
+   font-size: large;
+   font-weight: bold;
+}
+
+.heading{
+    font-weight: bolder;
+}
+
+#check-btn{
+    padding: 0.5rem;
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.result{
+    font-size: larger;
+    font-weight: bold;
+}
